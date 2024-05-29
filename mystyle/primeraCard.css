@@ -1,0 +1,61 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+    background-color: black
+}
+
+.card{
+    background-color: rgb(8, 8, 92);
+    width: 300px;
+    height: 400px;
+    margin: 30px auto;
+    border-radius: 15px;
+    box-shadow: 10px 10px 2px rgba(0, 0, 255, 0.663);
+    border: 1px solid transparent;
+}
+.card_image{
+    width: 150px;
+    height: 150px;
+    background-image:url(../../imagenes/imagen_dospersonas.jpg);
+    background-size: 150px 150px;
+    background-repeat: no-repeat;
+    margin: 10px auto;
+    background-position: center;
+    border: 1px solid transparent;
+
+}
+.contenedor{
+    text-align: center;
+    margin: 20px auto;
+    width: 250px;
+    height: 200px;
+    
+}
+.contenedor__titulo{
+    color: blueviolet;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 700;
+    padding-bottom: 10px;
+    font-size: 1rem;
+    border-bottom: 5px solid white;
+}
+.contenedor__parrafo{
+    text-align: left;
+    margin-top: 10px;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.5rem;
+}
+.contenedor__boton{
+    text-decoration: none;
+    border-radius: 10px;
+   background-color: red;
+    padding: 10px;
+    overflow: hidden;
+    color: white;
+    font-weight: 700;
+    display: inline-block;
+    margin-top: 10px;
+}

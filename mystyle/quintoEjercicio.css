@@ -1,0 +1,95 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+.quintoEjercicio{
+    width: 300px;
+    background-color: blueviolet;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
+    margin: 30px auto;
+    border-radius: 20px;
+    padding: 10px;
+}
+.contenedorSeccion{
+    background-image: linear-gradient(-225deg, #231557 0%, #44107A 29%, #FF1361 67%, #FFF800 100%);
+    margin-top: 30px;
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+}
+.seccionImportante{
+    width: 90%;
+    height: 80vh;
+    margin: 0 auto;
+    position: relative;
+}
+.olaPosition{
+    background-image: url(../../imagenes_svg/segundaOla.svg);
+    width: 100%;
+    height: 120px;
+   
+
+}
+.mContenedor{
+    width: 50%;
+    
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+}
+.contenedorFigcaption{
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    height: 80%;
+   right: 0;
+    transform: translateY(-50%);
+}
+
+
+.seccionImportante__titulo{
+    margin-top: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+}
+.seccionImportante__parrafo{
+    text-align: justify;
+    padding: 10px;
+    margin-top: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2rem;
+    font-weight: 700;
+}
+.seccionImportante__boton{
+    display: inline-block;
+    text-decoration: none;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: blue;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.5rem;
+}
+
+
+.parrafoFigure{
+    color: white;
+    margin-top: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+}
+.clase{
+    background-color: #FF1361;
+    width: 300px;
+    margin: 30px auto;
+    text-align: center;
+    border-radius: 20px;
+}
+
